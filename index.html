@@ -1,101 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>zero.</title>
-</head>
-<body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-    </style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>zero.</title>
+	</head>
+	<body>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+		</style>
 
-    <header class="navbar-container">
-        <nav>
-            <div class="NavBar">
-                <a href="index.html"><span>zero.</span></a>
-                <a href="start-here.html">Start Here</a>
-                <a href="contact.html">Contact Me</a>
-            </div>
-        </nav>
-    </header>
+		<header class="navbar-container">
+			<nav>
+				<div class="NavBar">
+					<a href="index.html"><span>zero.</span></a>
+					<a href="start-here.html">Start Here</a>
+					<a href="contact.html">Contact Me</a>
+				</div>
+			</nav>
+		</header>
 
-    <div class="container">
-        <h1>How to find your role:</h1>
-        <h3>A fun guides for dummies [like me]</h3>
-        <p>Welcome to zero. where you can learn everything you need to know to get the role. This website provides comprehensive information based on what I have researched and learned throughout my life journey.</p>
-    </div>
+		<div class="container">
+			<h1>How to find your role:</h1>
+			<h3>A fun guides for dummies [like me]</h3>
+			<p>
+				Welcome to zero. where you can learn everything you need to know
+				to get the role. This website provides comprehensive information
+				based on what I have researched and learned throughout my life
+				journey.
+			</p>
+		</div>
 
-    <main>
-        <!-- Begin Carousel -->
-        <div class="embla">
-            <div class="embla__viewport">
-                <div class="embla__container">
-                    <!-- Begin FE -->
-                    <div class="embla__slide">
-                        <img src="./img/fe.jpg" alt="Frontend">
-                        <h2>Frontend</h2>
-                        <p>Build user interfaces and user experiences for the web.</p>
-                        <a href="fe.html" class="btn">Learn More</a>
-                    </div>
-                    <!-- End FE -->
+		<div class="swiper embla">
+			<div class="swiper-wrapper embla-container">
+				<div class="embla__slide swiper-slide">
+					<img src="./img/fe.jpg" alt="Frontend" />
+					<h2>Frontend</h2>
+					<p>
+						Build user interfaces and user experiences for the web.
+					</p>
+					<a href="fe.html" class="btn">Learn More</a>
+				</div>
+				<!-- End FE -->
 
-                    <!-- Begin BE -->
-                    <div class="embla__slide">
-                        <img src="./img/be.jpg" alt="Backend">
-                        <h2>Backend</h2>
-                        <p>Develop server-side logic, database integration, and API connectivity.</p>
-                        <a href="be.html" class="btn">Learn More</a>
-                    </div>
-                    <!-- End BE -->
+				<!-- Begin BE -->
+				<div class="embla__slide swiper-slide">
+					<img src="./img/be.jpg" alt="Backend" />
+					<h2>Backend</h2>
+					<p>
+						Develop server-side logic, database integration, and API
+						connectivity.
+					</p>
+					<a href="be.html" class="btn">Learn More</a>
+				</div>
+				<!-- End BE -->
 
-                    <!-- Begin FS -->
-                    <div class="embla__slide">
-                        <img src="./img/fs.jpg" alt="Full Stack">
-                        <h2>Full Stack</h2>
-                        <p>Master both frontend and backend development for a comprehensive understanding.</p>
-                        <a href="fs.html" class="btn">Learn More</a>
-                    </div>
-                    <!-- End FS -->
+				<!-- Begin FS -->
+				<div class="embla__slide swiper-slide">
+					<img src="./img/fs.jpg" alt="Full Stack" />
+					<h2>Full Stack</h2>
+					<p>
+						Master both frontend and backend development for a
+						comprehensive
+					</p>
+					<a href="fs.html" class="btn">Learn More</a>
+				</div>
+				<!-- End FS -->
 
-                    <!-- Begin DS -->
-                    <div class="embla__slide">
-                        <img src="./img/ds.jpg" alt="Data Scientist">
-                        <h2>Data Scientist</h2>
-                        <p>Analyze and interpret complex data to drive business decisions.</p>
-                        <a href="ds.html" class="btn">Learn More</a>
-                    </div>
-                    <!-- End DS -->
+				<!-- Begin DS -->
+				<div class="embla__slide swiper-slide">
+					<img src="./img/ds.jpg" alt="Data Scientist" />
+					<h2>Data Scientist</h2>
+					<p>
+						Analyze and interpret complex data to drive business
+						decisions.
+					</p>
+					<a href="ds.html" class="btn">Learn More</a>
+				</div>
+				<!-- End DS -->
 
-                    <!-- Begin CS -->
-                    <div class="embla__slide">
-                        <img src="./img/cs.jpg" alt="Cyber Security">
-                        <h2>Cyber Security</h2>
-                        <p>Protect computer systems and networks from cyber threats.</p>
-                        <a href="cs.html" class="btn">Learn More</a>
-                    </div>
-                    <!-- End CS -->
-                </div>
-            </div>
-            <button class="embla__button embla__prev">‹</button>
-            <button class="embla__button embla__next">›</button>
-        </div>
-        <!-- End Carousel -->
-    </main>
+				<!-- Begin CS -->
+				<div class="embla__slide swiper-slide">
+					<img src="./img/cs.jpg" alt="Cyber Security" />
+					<h2>Cyber Security</h2>
+					<p>
+						Protect computer systems and networks from cyber
+						threats.
+					</p>
+					<a href="cs.html" class="btn">Learn More</a>
+				</div>
+			</div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
 
-    <footer>
-        <div class="footer-container">
-            <div class="logo-bottom">zero. <a href="#">by Wiellona</a></div>
-            <div class="footer-center">
-                <ul class="footer-list">
-                    <li><a href="https://github.com/wiellona">Github</a></li>
-                    <li><a href="https://linkedin.com/in/wiellonasaragih/">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/wiellonasaragih">Instagram</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script type="module" src="./script.js"></script>
-</body>
+		<footer>
+			<div class="footer-container">
+				<div class="logo-bottom">zero. <a href="#">by Wiellona</a></div>
+				<div class="footer-center">
+					<ul class="footer-list">
+						<li>
+							<a href="https://github.com/wiellona">Github</a>
+						</li>
+						<li>
+							<a href="https://linkedin.com/in/wiellonasaragih/"
+								>LinkedIn</a
+							>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/wiellonasaragih"
+								>Instagram</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./script.js"></script>
+	</body>
 </html>
